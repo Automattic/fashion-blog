@@ -1,0 +1,159 @@
+.site-main .post:first-child {
+	margin-top: 2em;
+}
+.site-main .post.has-post-thumbnail:first-child {
+	margin-top: 0;
+}
+
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 3em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.sticky.has-post-thumbnail {
+	.entry-header {
+		position: relative;
+	}
+
+	.entry-header-content {
+		@include linear-gradient( rgba(0,0,0,0), rgba(0,0,0,1) );
+		bottom: 0;
+		padding-bottom: 1rem;
+		position: absolute;
+		width: 100%;
+
+		.entry-title a {
+			color: $color__link-nav;
+			opacity: 1;
+			transition: opacity 0.2s linear;
+
+			&:hover {
+				opacity: 0.75;
+			}
+		}
+	}
+
+	.entry-content,
+	.entry-footer {
+		display: none;
+	}
+}
+
+.cat-links {
+	background-color: $color__link-alt;
+	color: $color__link-nav;
+	display: inline-block;
+	@include font-size(0.875);
+	margin: 0.75rem 0 1rem 0;
+	padding: 0.125rem 0.75rem 0.125rem 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	a {
+		color: $color__link-nav;
+		text-decoration: none;
+	}
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+
+	& > p:first-child {
+		margin-top: 0;
+	}
+
+	& > * {
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+
+	.alignfull {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.alignleft {
+		margin-left: 0;
+	}
+
+	.alignright {
+		margin-right: 0;
+	}
+
+	.wp-block-cover-image {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.entry-meta {
+	color: $color__text-alt;
+	@include font-size(0.75);
+	max-width: 280px;
+
+	a {
+		color: $color__text-alt;
+		text-decoration: none;
+	}
+
+	span {
+		width: 50%;
+	}
+
+	.posted-on {
+		float: right;
+		text-align: right;
+	}
+}
+
+.entry-title,
+.entry-meta {
+	margin: 0 1.5rem;
+}
+
+.entry-title {
+	margin-bottom: 0.5rem;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.entry-footer {
+	color: $color__text-alt;
+	@include font-size(0.75);
+	margin: 0 1.5rem;
+
+	span {
+		display: inline;
+		padding-right: 1em;
+
+		&:last-child {
+			padding-right: 0;
+		}
+	}
+}
+
+.tags-links a {
+	text-decoration: none;
+	text-transform: uppercase;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.comments-area {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}

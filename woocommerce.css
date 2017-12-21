@@ -1,0 +1,680 @@
+/*
+Theme Name: _s
+
+WooCommerce styles override
+*/
+/**
+ * WooCommerce color variables
+ */
+/**
+ * Imports
+ */
+/**
+ * Shop tables
+ */
+/**
+ * Shop tables
+ */
+/* line 5, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+table.shop_table_responsive thead {
+  display: none;
+}
+
+/* line 10, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+table.shop_table_responsive tbody th {
+  display: none;
+}
+
+/* line 16, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+table.shop_table_responsive tr td {
+  display: block;
+  text-align: right;
+  clear: both;
+}
+
+/* line 21, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+table.shop_table_responsive tr td:before {
+  content: attr(data-title) ": ";
+  float: left;
+}
+
+/* line 27, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+table.shop_table_responsive tr td.product-remove a {
+  text-align: left;
+}
+
+/* line 31, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+table.shop_table_responsive tr td.product-remove:before {
+  display: none;
+}
+
+/* line 38, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+table.shop_table_responsive tr td.actions:before, table.shop_table_responsive tr td.download-actions:before {
+  display: none;
+}
+
+/* line 44, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+table.shop_table_responsive tr td.download-actions .button {
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 48em) {
+  /* line 55, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+  table.shop_table_responsive thead {
+    display: table-header-group;
+  }
+  /* line 60, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+  table.shop_table_responsive tbody th {
+    display: table-cell;
+  }
+  /* line 66, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+  table.shop_table_responsive tr th, table.shop_table_responsive tr td {
+    text-align: left;
+  }
+  /* line 70, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+  table.shop_table_responsive tr td {
+    display: table-cell;
+  }
+  /* line 73, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_tables.scss */
+  table.shop_table_responsive tr td:before {
+    display: none;
+  }
+}
+
+/**
+ * Products
+ */
+/**
+ * Products
+ */
+/* line 4, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+ul.products {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+ul.products li.product {
+  list-style: none;
+  position: relative;
+  margin-bottom: 2em;
+}
+
+/* line 14, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+ul.products li.product .woocommerce-loop-product__title {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+/* line 18, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+ul.products li.product img {
+  display: block;
+}
+
+/* line 22, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+ul.products li.product .button {
+  display: block;
+}
+
+@media screen and (min-width: 48em) {
+  /* line 30, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+  ul.products li.product {
+    width: 30.79667%;
+    float: left;
+    margin-right: 3.8%;
+  }
+  /* line 35, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+  ul.products li.product.first {
+    clear: both;
+  }
+  /* line 39, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+  ul.products li.product.last {
+    margin-right: 0;
+  }
+  /* line 47, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+  .columns-1 ul.products li.product {
+    float: none;
+    width: 100%;
+  }
+  /* line 57, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+  .columns-2 ul.products li.product {
+    width: 48.1%;
+  }
+  /* line 57, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+  .columns-3 ul.products li.product {
+    width: 30.79667%;
+  }
+  /* line 57, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+  .columns-4 ul.products li.product {
+    width: 22.15%;
+  }
+  /* line 57, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+  .columns-5 ul.products li.product {
+    width: 16.96%;
+  }
+  /* line 57, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_products.scss */
+  .columns-6 ul.products li.product {
+    width: 13.49333%;
+  }
+}
+
+/**
+ * Single product
+ */
+/**
+ * Single Product
+ */
+/* line 5, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  position: relative;
+}
+
+/* line 9, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery {
+  position: relative;
+}
+
+/* line 12, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  display: block;
+  z-index: 99;
+}
+
+/* line 20, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery .flex-viewport {
+  margin-bottom: 1em;
+}
+
+/* line 24, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 29, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li {
+  list-style: none;
+  cursor: pointer;
+  float: left;
+}
+
+/* line 34, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li img {
+  opacity: .5;
+}
+
+/* line 37, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li img.flex-active {
+  opacity: 1;
+}
+
+/* line 43, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li:hover img {
+  opacity: 1;
+}
+
+/* line 53, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-2 .flex-control-thumbs li {
+  width: 48.1%;
+}
+
+/* line 56, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-2 .flex-control-thumbs li:nth-child(2n) {
+  margin-right: 0;
+}
+
+/* line 60, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-2 .flex-control-thumbs li:nth-child(2n+1) {
+  clear: both;
+}
+
+/* line 53, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li {
+  width: 30.79667%;
+}
+
+/* line 56, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* line 60, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n+1) {
+  clear: both;
+}
+
+/* line 53, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .flex-control-thumbs li {
+  width: 22.15%;
+}
+
+/* line 56, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n) {
+  margin-right: 0;
+}
+
+/* line 60, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {
+  clear: both;
+}
+
+/* line 53, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li {
+  width: 16.96%;
+}
+
+/* line 56, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li:nth-child(5n) {
+  margin-right: 0;
+}
+
+/* line 60, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--columns-5 .flex-control-thumbs li:nth-child(5n+1) {
+  clear: both;
+}
+
+/* line 72, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.stock:empty:before {
+  display: none;
+}
+
+/* line 76, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.stock.in-stock {
+  color: #0f834d;
+}
+
+/* line 80, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_single-product.scss */
+.stock.out-of-stock {
+  color: #e2401c;
+}
+
+/**
+ * Checkout
+ */
+/**
+ * Checkout
+ */
+@media screen and (min-width: 768px) {
+  /* line 6, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_checkout.scss */
+  .col2-set .form-row-first {
+    float: left;
+    margin-right: 3.8%;
+  }
+  /* line 11, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_checkout.scss */
+  .col2-set .form-row-last {
+    float: right;
+    margin-right: 0;
+  }
+  /* line 16, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_checkout.scss */
+  .col2-set .form-row-first,
+  .col2-set .form-row-last {
+    width: 48.1%;
+  }
+}
+
+/**
+ * General WooCommerce components
+ */
+/**
+ * Header cart
+ */
+/* line 4, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.site-header-cart {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+
+/* line 10, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.site-header-cart .cart-contents {
+  text-decoration: none;
+}
+
+/* line 14, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.site-header-cart .widget_shopping_cart {
+  display: none;
+}
+
+/* line 18, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.site-header-cart .product_list_widget {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Star rating
+ */
+/* line 27, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.star-rating {
+  overflow: hidden;
+  position: relative;
+  height: 1.618em;
+  line-height: 1.618;
+  font-size: 16px;
+  font-size: 1rem;
+  width: 5.3em;
+  font-family: 'star';
+  font-weight: 400;
+}
+
+/* line 37, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.star-rating:before {
+  content: "\53\53\53\53\53";
+  opacity: .25;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+/* line 46, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.star-rating span {
+  overflow: hidden;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding-top: 1.5em;
+}
+
+/* line 55, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.star-rating span:before {
+  content: "\53\53\53\53\53";
+  top: 0;
+  position: absolute;
+  left: 0;
+  color: #444;
+}
+
+/* line 65, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+p.stars a {
+  position: relative;
+  height: 1em;
+  width: 1em;
+  text-indent: -999em;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 1px;
+  font-weight: 400;
+}
+
+/* line 75, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+p.stars a:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  font-family: "star";
+  content: "\53";
+  color: #404040;
+  text-indent: 0;
+  opacity: .25;
+}
+
+/* line 91, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+p.stars a:hover ~ a:before {
+  content: "\53";
+  color: #404040;
+  opacity: .25;
+}
+
+/* line 101, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+p.stars:hover a:before {
+  content: "\53";
+  color: #444;
+  opacity: 1;
+}
+
+/* line 111, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+p.stars.selected a.active:before {
+  content: "\53";
+  color: #444;
+  opacity: 1;
+}
+
+/* line 117, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+p.stars.selected a.active ~ a:before {
+  content: "\53";
+  color: #404040;
+  opacity: .25;
+}
+
+/* line 125, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+p.stars.selected a:not(.active):before {
+  content: "\53";
+  color: #444;
+  opacity: 1;
+}
+
+/**
+ * Tabs
+ */
+/* line 138, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-tabs ul.tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* line 144, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-tabs ul.tabs li {
+  display: block;
+  margin: 0;
+  position: relative;
+}
+
+/* line 149, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-tabs ul.tabs li a {
+  padding: 1em 0;
+  display: block;
+}
+
+/* line 157, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-tabs .panel h2:first-of-type {
+  margin-bottom: 1em;
+}
+
+/**
+ * Password strength meter
+ */
+/* line 166, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-password-strength {
+  text-align: right;
+}
+
+/* line 169, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-password-strength.strong {
+  color: #0f834d;
+}
+
+/* line 173, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-password-strength.short {
+  color: #e2401c;
+}
+
+/* line 177, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-password-strength.bad {
+  color: #e2401c;
+}
+
+/* line 181, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-password-strength.good {
+  color: #3D9CD2;
+}
+
+/**
+ * Forms
+ */
+/* line 191, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.form-row.woocommerce-validated input.input-text {
+  box-shadow: inset 2px 0 0 #0f834d;
+}
+
+/* line 197, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.form-row.woocommerce-invalid input.input-text {
+  box-shadow: inset 2px 0 0 #e2401c;
+}
+
+/* line 203, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.required {
+  color: red;
+}
+
+/**
+ * Notices
+ */
+/* line 210, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error,
+.woocommerce-noreviews,
+p.no-comments {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  background-color: #0f834d;
+  clear: both;
+}
+
+/* line 220, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-info,
+.woocommerce-noreviews,
+p.no-comments {
+  background-color: #3D9CD2;
+}
+
+/* line 226, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.woocommerce-error {
+  background-color: #e2401c;
+}
+
+/* line 230, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+.demo_store {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 1em;
+  background-color: #3D9CD2;
+  z-index: 9999;
+}
+
+@media screen and (min-width: 48em) {
+  /**
+	 * Header cart
+	 */
+  /* line 246, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+  .site-header-cart .widget_shopping_cart {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 999999;
+    left: -999em;
+    display: block;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  /* line 258, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_components.scss */
+  .site-header-cart:hover .widget_shopping_cart, .site-header-cart.focus .widget_shopping_cart {
+    left: 0;
+    display: block;
+  }
+}
+
+/**
+ * WooCommerce widgets
+ */
+/**
+ * WooCommerce Price Filter
+ */
+/* line 5, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .price_slider {
+  margin-bottom: 1.5em;
+}
+
+/* line 9, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .price_slider_amount {
+  text-align: right;
+  line-height: 2.4em;
+}
+
+/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .price_slider_amount .button {
+  float: left;
+}
+
+/* line 18, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .ui-slider {
+  position: relative;
+  text-align: left;
+}
+
+/* line 23, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 1em;
+  height: 1em;
+  cursor: ew-resize;
+  outline: none;
+  background: #444;
+  box-sizing: border-box;
+  margin-top: -.25em;
+  opacity: 1;
+}
+
+/* line 35, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .ui-slider .ui-slider-handle:last-child {
+  margin-left: -1em;
+}
+
+/* line 39, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .ui-slider .ui-slider-handle:hover, .widget_price_filter .ui-slider .ui-slider-handle.ui-state-active {
+  box-shadow: 0 0 0 0.25em rgba(0, 0, 0, 0.1);
+}
+
+/* line 45, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .ui-slider .ui-slider-range {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  border: 0;
+  background: #444;
+}
+
+/* line 53, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .price_slider_wrapper .ui-widget-content {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 57, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .ui-slider-horizontal {
+  height: .5em;
+}
+
+/* line 61, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/shop/_widgets.scss */
+.widget_price_filter .ui-slider-horizontal .ui-slider-range {
+  height: 100%;
+}
+
+/*# sourceMappingURL=../woocommerce.map */

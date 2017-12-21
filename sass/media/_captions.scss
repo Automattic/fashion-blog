@@ -1,0 +1,38 @@
+.wp-caption {
+	text-align: center;
+
+	img[class*="wp-image-"] {
+		@include center-block;
+	}
+
+	.wp-caption-text {}
+}
+
+figcaption,
+.wp-caption-text {
+	background-color: #fff;
+	border-top: 3px solid $color__link-alt;
+	box-shadow: 3px 6px 5px 0 rgba(0,0,0,0.20);;
+	color: $color__text-caption;
+	@include font-size(0.8125);
+	margin: 0 1.5rem 2rem;
+	padding: 0.75em 1.5em;
+	text-align: center;
+}
+
+.wp-block-image figcaption,
+.wp-caption .wp-caption-text {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-top: 0;
+	position: relative;
+	top: -1.25rem;
+	transition: top 0.1s ease-in;
+}
+
+.wp-block-image:hover figcaption,
+.wp-caption:hover figcaption {
+	top: -0.25rem;
+	transition: top 0.25s ease-in;
+}
+
