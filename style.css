@@ -3,7 +3,7 @@ Theme Name: Fashion Blog
 Theme URI: https://wordpress.com/
 Author: Automattic
 Author URI: https://automattic.com/
-Description: Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Description: Fashion Blog needs a clever description.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -13,7 +13,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-_s is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Fashion Blog is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -46,19 +46,16 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
 }
 
-/* line 7, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 body {
-  margin: 0;
+	margin: 0;
 }
 
-/* line 11, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 article,
 aside,
 details,
@@ -71,560 +68,500 @@ menu,
 nav,
 section,
 summary {
-  display: block;
+	display: block;
 }
 
-/* line 26, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 audio,
 canvas,
 progress,
 video {
-  display: inline-block;
-  vertical-align: baseline;
+	display: inline-block;
+	vertical-align: baseline;
 }
 
-/* line 34, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 audio:not([controls]) {
-  display: none;
-  height: 0;
+	display: none;
+	height: 0;
 }
 
-/* line 39, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 [hidden],
 template {
-  display: none;
+	display: none;
 }
 
-/* line 44, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 a {
-  background-color: transparent;
+	background-color: transparent;
 }
 
-/* line 48, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 a:active,
 a:hover {
-  outline: 0;
+	outline: 0;
 }
 
-/* line 53, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 abbr[title] {
-  border-bottom: 1px dotted;
+	border-bottom: 1px dotted;
 }
 
-/* line 57, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 b,
 strong {
-  font-weight: bold;
+	font-weight: bold;
 }
 
-/* line 62, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 dfn {
-  font-style: italic;
+	font-style: italic;
 }
 
-/* line 66, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+	font-size: 2em;
+	margin: 0.67em 0;
 }
 
-/* line 71, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 mark {
-  background: #ff0;
-  color: #000;
+	background: #ff0;
+	color: #000;
 }
 
-/* line 76, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 small {
-  font-size: 80%;
+	font-size: 80%;
 }
 
-/* line 80, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
 
-/* line 88, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 sup {
-  top: -0.5em;
+	top: -0.5em;
 }
 
-/* line 92, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 sub {
-  bottom: -0.25em;
+	bottom: -0.25em;
 }
 
-/* line 96, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 img {
-  border: 0;
+	border: 0;
 }
 
-/* line 100, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 svg:not(:root) {
-  overflow: hidden;
+	overflow: hidden;
 }
 
-/* line 104, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 figure {
-  margin: 1em 40px;
+	margin: 1em 40px;
 }
 
-/* line 108, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 hr {
-  box-sizing: content-box;
-  height: 0;
+	box-sizing: content-box;
+	height: 0;
 }
 
-/* line 113, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 pre {
-  overflow: auto;
+	overflow: auto;
 }
 
-/* line 117, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
+	font-family: monospace, monospace;
+	font-size: 1em;
 }
 
-/* line 125, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 button,
 input,
 optgroup,
 select,
 textarea {
-  color: inherit;
-  font: inherit;
-  margin: 0;
+	color: inherit;
+	font: inherit;
+	margin: 0;
 }
 
-/* line 135, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 button {
-  overflow: visible;
+	overflow: visible;
 }
 
-/* line 139, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 button,
 select {
-  text-transform: none;
+	text-transform: none;
 }
 
-/* line 144, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
+html input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+	-webkit-appearance: button;
+	cursor: pointer;
 }
 
-/* line 152, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 button[disabled],
 html input[disabled] {
-  cursor: default;
+	cursor: default;
 }
 
-/* line 157, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
+	border: 0;
+	padding: 0;
 }
 
-/* line 163, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 input {
-  line-height: normal;
+	line-height: normal;
 }
 
-/* line 167, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
+input[type='checkbox'],
+input[type='radio'] {
+	box-sizing: border-box;
+	padding: 0;
 }
 
-/* line 173, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	height: auto;
 }
 
-/* line 178, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
+	-webkit-appearance: none;
 }
 
-/* line 183, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 189, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 legend {
-  border: 0;
-  padding: 0;
+	border: 0;
+	padding: 0;
 }
 
-/* line 194, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 textarea {
-  overflow: auto;
+	overflow: auto;
 }
 
-/* line 198, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 optgroup {
-  font-weight: bold;
+	font-weight: bold;
 }
 
-/* line 202, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-/* line 207, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/_normalize.scss */
 td,
 th {
-  padding: 0;
+	padding: 0;
 }
 
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_typography.scss */
 body,
 button,
 input,
 select,
 optgroup,
 textarea {
-  color: #404040;
-  font-family: Arial, Verdana, sans-serif;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.5;
+	color: #404040;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
 }
 
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_headings.scss */
-h1, h2, h3, h4, h5, h6 {
-  clear: both;
-  color: #111;
-  font-family: "Lora", Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-  margin: 0 0 1.5em 0;
-  line-height: 1.25;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	color: #111;
+	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	margin: 0 0 1.5em 0;
+	line-height: 1.25;
 }
 
-/* line 9, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_headings.scss */
 .site-title {
-  font-size: 24px;
-  font-size: 1.5rem;
-  font-family: "Lora", Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-  font-weight: 400;
-  letter-spacing: 2px;
-  line-height: 1.3;
-  margin-bottom: 0.2em;
-  margin-top: 0.2em;
-  text-transform: uppercase;
+	font-size: 24px;
+	font-size: 1.5rem;
+	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 1.3;
+	margin-bottom: 0.2em;
+	margin-top: 0.2em;
+	text-transform: uppercase;
 }
 
-/* line 19, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_headings.scss */
 .site-title a:link,
 .site-title a:visited {
-  color: #444;
-  text-decoration: none;
+	color: #444;
+	text-decoration: none;
 }
 
-/* line 26, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_headings.scss */
 .site-description {
-  display: none;
+	display: none;
 }
 
-/* line 30, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_headings.scss */
 .entry-title {
-  font-weight: 400;
+	font-weight: 400;
 }
 
-/* line 33, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_headings.scss */
 .entry-title a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_copy.scss */
 p {
-  margin-bottom: 1.5em;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+	margin-bottom: 1.5em;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
-/* line 7, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_copy.scss */
-dfn, cite, em, i {
-  font-style: italic;
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
 }
 
-/* line 11, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_copy.scss */
 blockquote {
-  border-left: 3px solid #EF5656;
-  font-family: "Lora", Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-  font-size: 24px;
-  font-size: 1.5rem;
-  margin: 0 0 1.5em 0;
-  padding-left: 1.5rem;
+	border-left: 3px solid #ef5656;
+	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-size: 24px;
+	font-size: 1.5rem;
+	margin: 0 0 1.5em 0;
+	padding-left: 1.5rem;
 }
 
-/* line 19, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_copy.scss */
 address {
-  margin: 0 0 1.5em;
+	margin: 0 0 1.5em;
 }
 
-/* line 23, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_copy.scss */
 pre {
-  background: #eee;
-  font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 15px;
-  font-size: 0.9375rem;
-  line-height: 1.6;
-  margin-bottom: 1.6em;
-  max-width: 100%;
-  overflow: auto;
-  padding: 1.6em;
-  white-space: pre-wrap;
+	background: #eee;
+	font-family: 'Courier 10 Pitch', Courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+	white-space: pre-wrap;
 }
 
-/* line 35, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_copy.scss */
-code, kbd, tt, var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 15px;
-  font-size: 0.9375rem;
+code,
+kbd,
+tt,
+var {
+	font-family: Monaco, Consolas, 'Andale Mono', 'DejaVu Sans Mono', monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
 }
 
-/* line 40, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_copy.scss */
-abbr, acronym {
-  border-bottom: 1px dotted #666;
-  cursor: help;
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
 }
 
-/* line 45, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_copy.scss */
-mark, ins {
-  background: #fff9c0;
-  text-decoration: none;
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
 }
 
-/* line 50, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_copy.scss */
 big {
-  font-size: 125%;
+	font-size: 125%;
 }
 
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/typography/_genericons.scss */
 .menu-toggle:before {
-  font-family: Genericons;
-  font-size: 1em;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1em;
-  text-decoration: inherit;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  speak: none;
+	font-family: Genericons;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1em;
+	text-decoration: inherit;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	speak: none;
 }
 
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_elements.scss */
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-/* line 5, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_elements.scss */
 *,
 *:before,
 *:after {
-  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-  box-sizing: inherit;
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
 }
 
-/* line 11, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_elements.scss */
 body {
-  background: #fff;
-  /* Fallback for when there is no custom background color defined. */
+	background: #fff;
+	/* Fallback for when there is no custom background color defined. */
 }
 
-/* line 15, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_elements.scss */
 hr {
-  background-color: #ccc;
-  border: 0;
-  height: 1px;
-  margin-bottom: 1.5em;
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
 }
 
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_lists.scss */
-ul, ol {
-  margin: 0 0 1.5em 0;
-}
-
-/* line 5, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_lists.scss */
-ul {
-  list-style: disc;
-}
-
-/* line 9, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_lists.scss */
+ul,
 ol {
-  list-style: decimal;
+	margin: 0 0 1.5em 0;
 }
 
-/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_lists.scss */
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
 li > ul,
 li > ol {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
-/* line 18, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_lists.scss */
 dt {
-  font-weight: bold;
+	font-weight: bold;
 }
 
-/* line 22, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_lists.scss */
 dd {
-  margin: 0 1.5em 1.5em;
+	margin: 0 1.5em 1.5em;
 }
 
-/* line 24, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_elements.scss */
 img {
-  display: block;
-  height: auto;
-  /* Make sure images are scaled correctly. */
-  max-width: 100%;
-  /* Adhere to container width. */
+	display: block;
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
 }
 
-/* line 30, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_elements.scss */
 figure {
-  margin: 0 0 1em;
-  /* Extra wide images within figure tags don't overflow the content area. */
-  max-width: 100%;
-  position: relative;
+	margin: 0 0 1em;
+	/* Extra wide images within figure tags don't overflow the content area. */
+	max-width: 100%;
+	position: relative;
 }
 
-/* line 36, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_elements.scss */
 audio,
 canvas,
 progress,
 video {
-  max-width: 100%;
+	max-width: 100%;
 }
 
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_tables.scss */
 table {
-  margin: 0 0 1.5em;
-  width: auto;
-  max-width: 100%;
+	margin: 0 0 1.5em;
+	width: auto;
+	max-width: 100%;
 }
 
-/* line 7, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/elements/_tables.scss */
 th,
 td {
-  padding: 0.25em;
+	padding: 0.25em;
 }
 
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/forms/_buttons.scss */
 button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #e6e6e6;
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: .6em 1em .4em;
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+	border: 1px solid;
+	border-color: #ccc #ccc #bbb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1;
+	padding: 0.6em 1em 0.4em;
 }
 
-/* line 14, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/forms/_buttons.scss */
 button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-  border-color: #ccc #bbb #aaa;
+input[type='button']:hover,
+input[type='reset']:hover,
+input[type='submit']:hover {
+	border-color: #ccc #bbb #aaa;
 }
 
-/* line 18, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/forms/_buttons.scss */
-button:active, button:focus,
-input[type="button"]:active,
-input[type="button"]:focus,
-input[type="reset"]:active,
-input[type="reset"]:focus,
-input[type="submit"]:active,
-input[type="submit"]:focus {
-  border-color: #aaa #bbb #bbb;
+button:active,
+button:focus,
+input[type='button']:active,
+input[type='button']:focus,
+input[type='reset']:active,
+input[type='reset']:focus,
+input[type='submit']:active,
+input[type='submit']:focus {
+	border-color: #aaa #bbb #bbb;
 }
 
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/forms/_fields.scss */
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'],
+input[type='range'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='time'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='color'],
 textarea {
-  color: #666;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  padding: 3px;
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 3px;
 }
 
-/* line 22, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/forms/_fields.scss */
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-input[type="range"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="week"]:focus,
-input[type="time"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="color"]:focus,
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='number']:focus,
+input[type='tel']:focus,
+input[type='range']:focus,
+input[type='date']:focus,
+input[type='month']:focus,
+input[type='week']:focus,
+input[type='time']:focus,
+input[type='datetime']:focus,
+input[type='datetime-local']:focus,
+input[type='color']:focus,
 textarea:focus {
-  color: #111;
+	color: #111;
 }
 
-/* line 27, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/forms/_fields.scss */
 select {
-  border: 1px solid #ccc;
+	border: 1px solid #ccc;
 }
 
-/* line 31, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/forms/_fields.scss */
 textarea {
-  width: 100%;
+	width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -633,115 +570,103 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_links.scss */
 a {
-  color: #444;
+	color: #444;
 }
 
-/* line 4, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_links.scss */
 a:visited {
-  color: #666;
+	color: #666;
 }
 
-/* line 7, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_links.scss */
-a:hover, a:focus, a:active {
-  color: #888;
+a:hover,
+a:focus,
+a:active {
+	color: #888;
 }
 
-/* line 12, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_links.scss */
 a:focus {
-  outline: thin dotted;
+	outline: thin dotted;
 }
 
-/* line 15, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_links.scss */
-a:hover, a:active {
-  outline: 0;
+a:hover,
+a:active {
+	outline: 0;
 }
 
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation {
-  background: #FF9090;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #FF9090 0%, #9C98FF 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF9090), color-stop(100%, #9C98FF));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #FF9090 0%, #9C98FF 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #FF9090 0%, #9C98FF 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #FF9090 0%, #9C98FF 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #FF9090 0%, #9C98FF 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
-  /* IE6-9 */
-  clear: both;
-  display: block;
+	background: #ff9090;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #ff9090 0%, #9c98ff 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff9090), color-stop(100%, #9c98ff));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff9090 0%, #9c98ff 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff9090 0%, #9c98ff 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ff9090 0%, #9c98ff 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #ff9090 0%, #9c98ff 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+	/* IE6-9 */
+	clear: both;
+	display: block;
 }
 
-/* line 6, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation ul {
-  display: none;
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
 }
 
-/* line 12, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation ul ul {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  float: left;
-  position: absolute;
-  top: 100%;
-  left: -999em;
-  z-index: 99999;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	float: left;
+	position: absolute;
+	top: 100%;
+	left: -999em;
+	z-index: 99999;
 }
 
-/* line 20, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation ul ul ul {
-  left: -999em;
-  top: 0;
+	left: -999em;
+	top: 0;
 }
 
-/* line 26, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation ul ul li:hover > ul,
 .main-navigation ul ul li.focus > ul {
-  left: 100%;
+	left: 100%;
 }
 
-/* line 32, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation ul ul a {
-  width: 200px;
+	width: 200px;
 }
 
-/* line 45, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
-  /* left: auto; */
+	/* left: auto; */
 }
 
-/* line 51, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation li {
-  line-height: 3;
-  padding-left: 1em;
-  position: relative;
+	line-height: 3;
+	padding-left: 1em;
+	position: relative;
 }
 
-/* line 56, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation li a {
-  color: #fff;
-  display: block;
-  font-family: "Lora", Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-  font-size: 18px;
-  font-size: 1.125rem;
-  text-decoration: none;
+	color: #fff;
+	display: block;
+	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-size: 18px;
+	font-size: 1.125rem;
+	text-decoration: none;
 }
 
-/* line 64, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation li:hover > a,
 .main-navigation li.focus > a,
 .main-navigation li a:hover,
@@ -750,201 +675,182 @@ a:hover, a:active {
 .main-navigation li .current-menu-item > a,
 .main-navigation li .current_page_ancestor > a,
 .main-navigation li .current-menu-ancestor > a {
-  color: #000;
+	color: #000;
 }
 
 /* Small menu. */
-/* line 79, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .main-navigation.toggled ul {
-  display: block;
-  opacity: 1;
+	display: block;
+	opacity: 1;
 }
 
-/* line 85, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .menu-toggle {
-  background: none;
-  border: none;
-  border-radius: none;
-  color: #EF5656;
-  display: block;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  text-transform: uppercase;
-  top: 0.25em;
+	background: none;
+	border: none;
+	border-radius: none;
+	color: #ef5656;
+	display: block;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	text-transform: uppercase;
+	top: 0.25em;
 }
 
-/* line 97, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .menu-toggle:before {
-  content: "\f419";
-  display: block;
-  font-size: 18px;
-  font-size: 1.125rem;
-  margin: 0 0 6px 0;
+	content: '\f419';
+	display: block;
+	font-size: 18px;
+	font-size: 1.125rem;
+	margin: 0 0 6px 0;
 }
 
-/* line 104, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .toggled .menu-toggle:before {
-  content: "\f406";
+	content: '\f406';
 }
 
-/* line 109, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .comment-navigation,
 .posts-navigation,
 .post-navigation {
-  font-family: "Lora", Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-  font-size: 24px;
-  font-size: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-size: 24px;
+	font-size: 1.5rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 
-/* line 117, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
-.site-main .comment-navigation, .site-main
-.posts-navigation, .site-main
+.site-main .comment-navigation,
+.site-main
+.posts-navigation,
+.site-main
 .post-navigation {
-  margin: 0 0 1.5em;
-  overflow: hidden;
+	margin: 0 0 1.5em;
+	overflow: hidden;
 }
 
-/* line 122, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .comment-navigation a,
 .posts-navigation a,
 .post-navigation a {
-  color: #404040;
-  text-decoration: none;
+	color: #404040;
+	text-decoration: none;
 }
 
-/* line 126, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .comment-navigation a:hover,
 .posts-navigation a:hover,
 .post-navigation a:hover {
-  color: #000;
-  text-decoration: underline;
+	color: #000;
+	text-decoration: underline;
 }
 
-/* line 132, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
-  float: left;
+	float: left;
 }
 
-/* line 135, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .comment-navigation .nav-previous:before,
 .posts-navigation .nav-previous:before,
 .post-navigation .nav-previous:before {
-  content: "\00ab";
-  padding-right: 0.2em;
+	content: '\00ab';
+	padding-right: 0.2em;
 }
 
-/* line 141, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
-  float: right;
-  text-align: right;
+	float: right;
+	text-align: right;
 }
 
-/* line 145, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/navigation/_menus.scss */
 .comment-navigation .nav-next:after,
 .posts-navigation .nav-next:after,
 .post-navigation .nav-next:after {
-  content: "\00bb";
-  padding-left: 0.2em;
+	content: '\00bb';
+	padding-left: 0.2em;
 }
 
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
-/* line 2, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_accessibility.scss */
 .screen-reader-text {
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  word-wrap: normal !important;
-  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+	/* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
-/* line 14, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_accessibility.scss */
 .screen-reader-text:focus {
-  background-color: #f1f1f1;
-  border-radius: 3px;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-  clip: auto !important;
-  clip-path: none;
-  color: #21759b;
-  display: block;
-  font-size: 14px;
-  font-size: 0.875rem;
-  font-weight: bold;
-  height: auto;
-  left: 5px;
-  line-height: normal;
-  padding: 15px 23px 14px;
-  text-decoration: none;
-  top: 5px;
-  width: auto;
-  z-index: 100000;
-  /* Above WP toolbar. */
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
 }
 
 /* Do not show the outline on the skip link target. */
-/* line 36, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_accessibility.scss */
-#content[tabindex="-1"]:focus {
-  outline: 0;
+#content[tabindex='-1']:focus {
+	outline: 0;
 }
 
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_alignments.scss */
 .alignleft {
-  display: inline;
-  float: left;
-  margin-right: 1.5em;
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
 }
 
-/* line 7, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_alignments.scss */
 .alignright {
-  display: inline;
-  float: right;
-  margin-left: 1.5em;
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
 }
 
-/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_alignments.scss */
 .aligncenter {
-  clear: both;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-/* line 21, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_alignments.scss */
 .page-content.alignleft,
 .entry-content.alignleft,
 .entry-summary.alignleft {
-  margin-left: 0;
+	margin-left: 0;
 }
 
-/* line 25, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_alignments.scss */
 .page-content.alignright,
 .entry-content.alignright,
 .entry-summary.alignright {
-  margin-right: 0;
+	margin-right: 0;
 }
 
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_clearings.scss */
 .menu:before,
 .menu:after,
 .clear:before,
@@ -959,12 +865,11 @@ a:hover, a:active {
 .site-content:after,
 .site-footer:before,
 .site-footer:after {
-  content: "";
-  display: table;
-  table-layout: fixed;
+	content: '';
+	display: table;
+	table-layout: fixed;
 }
 
-/* line 18, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_clearings.scss */
 .menu:after,
 .clear:after,
 .entry-content:after,
@@ -972,173 +877,150 @@ a:hover, a:active {
 .site-header:after,
 .site-content:after,
 .site-footer:after {
-  clear: both;
+	clear: both;
 }
 
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget {
-  border-bottom: 1px solid #fff;
-  margin: 0 0 1.5em;
-  /* Make sure select elements fit in widgets. */
+	border-bottom: 1px solid #fff;
+	margin: 0 0 1.5em;
+	/* Make sure select elements fit in widgets. */
 }
 
-/* line 5, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget a {
-  color: #000;
-  opacity: 1;
+	color: #000;
+	opacity: 1;
 }
 
-/* line 9, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget a:hover {
-  opacity: 0.75;
+	opacity: 0.75;
 }
 
-/* line 14, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
+	border-bottom: none;
+	margin-bottom: 0;
 }
 
-/* line 18, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget:last-child > *:last-child {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
-/* line 24, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget select {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 /**
  * Gravatar Profile
  */
-/* line 33, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget-grofile h4 {
-  font-size: 20px;
-  font-size: 1.25rem;
-  font-weight: 400;
+	font-size: 20px;
+	font-size: 1.25rem;
+	font-weight: 400;
 }
 
-/* line 39, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget-grofile .grofile-meta a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-/* line 43, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget-grofile .grofile-meta h4 {
-  font-weight: 700;
+	font-weight: 700;
 }
 
-/* line 48, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget-grofile .grofile-thumbnail {
-  border-radius: 50%;
-  max-height: 180px;
-  max-width: 180px;
-  margin: 0 auto;
+	border-radius: 50%;
+	max-height: 180px;
+	max-width: 180px;
+	margin: 0 auto;
 }
 
 /**
  * Social Media Icons
  */
-/* line 61, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget_wpcom_social_media_icons_widget ul {
-  padding-left: 0;
+	padding-left: 0;
 }
 
-/* line 64, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget_wpcom_social_media_icons_widget ul li {
-  margin-right: 0.75em;
+	margin-right: 0.75em;
 }
 
-/* line 69, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/secondary/_widgets.scss */
 .widget_wpcom_social_media_icons_widget a {
-  font-size: 40px;
-  font-size: 2.5rem;
+	font-size: 40px;
+	font-size: 2.5rem;
 }
 
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_content-sidebar.scss */
 .content-area {
-  margin: 0;
-  width: 100%;
+	margin: 0;
+	width: 100%;
 }
 
-/* line 6, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_content-sidebar.scss */
 .site-main {
-  margin: 0;
+	margin: 0;
 }
 
-/* line 10, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_content-sidebar.scss */
 .site-header {
-  background: #fff;
-  position: relative;
+	background: #fff;
+	position: relative;
 }
 
-/* line 15, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_content-sidebar.scss */
 .site-branding {
-  float: left;
-  width: calc( 100% - 2.625rem);
-  padding: 0.5em 1em;
+	float: left;
+	width: calc( 100% - 2.625rem);
+	padding: 0.5em 1em;
 }
 
-/* line 21, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_content-sidebar.scss */
 .site-content .widget-area {
-  background: rgba(173, 173, 255, 0.5);
-  /* Old browsers */
-  background: -moz-linear-gradient(top, rgba(173, 173, 255, 0.5) 0%, rgba(255, 144, 144, 0.5) 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(173, 173, 255, 0.5)), color-stop(100%, rgba(255, 144, 144, 0.5)));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(173, 173, 255, 0.5) 0%, rgba(255, 144, 144, 0.5) 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(173, 173, 255, 0.5) 0%, rgba(255, 144, 144, 0.5) 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(173, 173, 255, 0.5) 0%, rgba(255, 144, 144, 0.5) 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, rgba(173, 173, 255, 0.5) 0%, rgba(255, 144, 144, 0.5) 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
-  /* IE6-9 */
-  overflow: hidden;
-  padding: 2em 1.5rem 0;
-  width: 100%;
+	background: rgba(173, 173, 255, 0.5);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(173, 173, 255, 0.5) 0%, rgba(255, 144, 144, 0.5) 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(173, 173, 255, 0.5)), color-stop(100%, rgba(255, 144, 144, 0.5)));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(173, 173, 255, 0.5) 0%, rgba(255, 144, 144, 0.5) 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(173, 173, 255, 0.5) 0%, rgba(255, 144, 144, 0.5) 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(173, 173, 255, 0.5) 0%, rgba(255, 144, 144, 0.5) 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, rgba(173, 173, 255, 0.5) 0%, rgba(255, 144, 144, 0.5) 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+	/* IE6-9 */
+	overflow: hidden;
+	padding: 2em 1.5rem 0;
+	width: 100%;
 }
 
-/* line 28, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_content-sidebar.scss */
 .site-footer {
-  background-color: rgba(255, 144, 144, 0.5);
-  clear: both;
-  font-family: "Lora", Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-  margin: 0;
-  text-align: left;
-  width: 100%;
+	background-color: rgba(255, 144, 144, 0.5);
+	clear: both;
+	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	margin: 0;
+	text-align: left;
+	width: 100%;
 }
 
-/* line 36, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_content-sidebar.scss */
 .site-footer .site-info {
-  border-top: 1px solid #fff;
-  padding-top: 1.5em;
-  margin: 1.5em 1.5em 3em;
+	border-top: 1px solid #fff;
+	padding-top: 1.5em;
+	margin: 1.5em 1.5em 3em;
 }
 
-/* line 41, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_content-sidebar.scss */
 .site-footer .site-info a:first-child {
-  display: block;
+	display: block;
 }
 
-/* line 46, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_content-sidebar.scss */
 .site-footer a {
-  color: #000;
+	color: #000;
 }
 
-/* line 50, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_content-sidebar.scss */
 .site-footer .sep {
-  display: none;
+	display: none;
 }
 
 /*--------------------------------------------------------------
@@ -1149,48 +1031,41 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 /* Dropcaps */
 /* Images */
-/* line 14, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_gutenberg.scss */
 .wp-block-image {
-  text-align: center;
+	text-align: center;
 }
 
 /* Galleries */
-/* line 30, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_gutenberg.scss */
 .wp-block-gallery.alignfull {
-  margin-left: 0;
-  margin-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
-/* line 35, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_gutenberg.scss */
 .wp-block-gallery.columns-1 figure,
 .wp-block-gallery.columns-2 figure:nth-child(2n),
 .wp-block-gallery.columns-3 figure:nth-child(3n),
 .wp-block-gallery.columns-4 figure:nth-child(4n),
 .wp-block-gallery.columns-5 figure:nth-child(5n) {
-  margin-right: 0;
+	margin-right: 0;
 }
 
 /* Blockquotes*/
-/* line 45, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_gutenberg.scss */
 .wp-block-quote {
-  margin-bottom: 1.5em;
+	margin-bottom: 1.5em;
 }
 
-/* line 48, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_gutenberg.scss */
 .wp-block-quote cite {
-  margin-top: 0;
+	margin-top: 0;
 }
 
-/* line 52, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_gutenberg.scss */
 .wp-block-quote p:last-of-type {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 /* Cover Images */
-/* line 65, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/layout/_gutenberg.scss */
 .wp-block-cover-image {
-  background-position-x: center;
-  margin-bottom: 1.5em;
+	background-position-x: center;
+	margin-bottom: 1.5em;
 }
 
 /* Video */
@@ -1208,406 +1083,356 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .site-main .post:first-child {
-  margin-top: 2em;
+	margin-top: 2em;
 }
 
-/* line 4, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .site-main .post.has-post-thumbnail:first-child {
-  margin-top: 0;
+	margin-top: 0;
 }
 
-/* line 8, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .sticky {
-  display: block;
+	display: block;
 }
 
-/* line 12, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .hentry {
-  margin: 0 0 3em;
+	margin: 0 0 3em;
 }
 
-/* line 16, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .updated:not(.published) {
-  display: none;
+	display: none;
 }
 
-/* line 21, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .sticky.has-post-thumbnail .entry-header {
-  position: relative;
+	position: relative;
 }
 
-/* line 25, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .sticky.has-post-thumbnail .entry-header-content {
-  background: transparent;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, transparent 0%, black 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, black));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, transparent 0%, black 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, transparent 0%, black 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, transparent 0%, black 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, transparent 0%, black 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
-  /* IE6-9 */
-  bottom: 0;
-  padding-bottom: 1rem;
-  position: absolute;
-  width: 100%;
+	background: transparent;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, transparent 0%, black 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, black));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, transparent 0%, black 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, transparent 0%, black 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, transparent 0%, black 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, transparent 0%, black 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+	/* IE6-9 */
+	bottom: 0;
+	padding-bottom: 1rem;
+	position: absolute;
+	width: 100%;
 }
 
-/* line 32, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .sticky.has-post-thumbnail .entry-header-content .entry-title a {
-  color: #fff;
-  opacity: 1;
-  transition: opacity 0.2s linear;
+	color: #fff;
+	opacity: 1;
+	transition: opacity 0.2s linear;
 }
 
-/* line 37, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .sticky.has-post-thumbnail .entry-header-content .entry-title a:hover {
-  opacity: 0.75;
+	opacity: 0.75;
 }
 
-/* line 43, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .sticky.has-post-thumbnail .entry-content,
 .sticky.has-post-thumbnail .entry-footer {
-  display: none;
+	display: none;
 }
 
-/* line 49, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .cat-links {
-  background-color: #EF5656;
-  color: #fff;
-  display: inline-block;
-  font-size: 14px;
-  font-size: 0.875rem;
-  margin: 0.75rem 0 1rem 0;
-  padding: 0.125rem 0.75rem 0.125rem 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+	background-color: #ef5656;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	margin: 0.75rem 0 1rem 0;
+	padding: 0.125rem 0.75rem 0.125rem 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
-/* line 59, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .cat-links a {
-  color: #fff;
-  text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
 
-/* line 65, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0;
+	margin: 1.5em 0 0;
 }
 
-/* line 70, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .page-content > p:first-child,
 .entry-content > p:first-child,
 .entry-summary > p:first-child {
-  margin-top: 0;
+	margin-top: 0;
 }
 
-/* line 74, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .page-content > *,
 .entry-content > *,
 .entry-summary > * {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
 }
 
-/* line 79, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .page-content .alignfull,
 .entry-content .alignfull,
 .entry-summary .alignfull {
-  margin-left: 0;
-  margin-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
-/* line 84, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .page-content .alignleft,
 .entry-content .alignleft,
 .entry-summary .alignleft {
-  margin-left: 0;
+	margin-left: 0;
 }
 
-/* line 88, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .page-content .alignright,
 .entry-content .alignright,
 .entry-summary .alignright {
-  margin-right: 0;
+	margin-right: 0;
 }
 
-/* line 92, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .page-content .wp-block-cover-image,
 .entry-content .wp-block-cover-image,
 .entry-summary .wp-block-cover-image {
-  margin-left: 0;
-  margin-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
-/* line 98, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .entry-meta {
-  color: #999;
-  font-size: 12px;
-  font-size: 0.75rem;
-  max-width: 280px;
+	color: #999;
+	font-size: 12px;
+	font-size: 0.75rem;
+	max-width: 280px;
 }
 
-/* line 103, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .entry-meta a {
-  color: #999;
-  text-decoration: none;
+	color: #999;
+	text-decoration: none;
 }
 
-/* line 108, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .entry-meta span {
-  width: 50%;
+	width: 50%;
 }
 
-/* line 112, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .entry-meta .posted-on {
-  float: right;
-  text-align: right;
+	float: right;
+	text-align: right;
 }
 
-/* line 118, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .entry-title,
 .entry-meta {
-  margin: 0 1.5rem;
+	margin: 0 1.5rem;
 }
 
-/* line 123, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .entry-title {
-  margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
-/* line 127, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .page-links {
-  clear: both;
-  margin: 0 0 1.5em;
+	clear: both;
+	margin: 0 0 1.5em;
 }
 
-/* line 132, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .entry-footer {
-  color: #999;
-  font-size: 12px;
-  font-size: 0.75rem;
-  margin: 0 1.5rem;
+	color: #999;
+	font-size: 12px;
+	font-size: 0.75rem;
+	margin: 0 1.5rem;
 }
 
-/* line 137, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .entry-footer span {
-  display: inline;
-  padding-right: 1em;
+	display: inline;
+	padding-right: 1em;
 }
 
-/* line 141, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .entry-footer span:last-child {
-  padding-right: 0;
+	padding-right: 0;
 }
 
-/* line 147, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .tags-links a {
-  text-decoration: none;
-  text-transform: uppercase;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
-/* line 151, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .tags-links a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
-/* line 156, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_posts-and-pages.scss */
 .comments-area {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
 
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_comments.scss */
 .comment-content a {
-  word-wrap: break-word;
+	word-wrap: break-word;
 }
 
-/* line 4, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/primary/_comments.scss */
 .bypostauthor {
-  display: block;
+	display: block;
 }
 
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-/* line 2, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_infinite-scroll.scss */
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
-  /* Theme Footer (when set to scrolling) */
-  display: none;
+	/* Theme Footer (when set to scrolling) */
+	display: none;
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
-/* line 8, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/modules/_infinite-scroll.scss */
 .infinity-end.neverending .site-footer {
-  display: block;
+	display: block;
 }
 
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_media.scss */
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
-  border: none;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 0;
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
 }
 
 /* Make sure embeds and iframes fit their containers. */
-/* line 11, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_media.scss */
 embed,
 iframe,
 object {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 /* Make sure logo link wraps around logo image. */
-/* line 18, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_media.scss */
 .custom-logo-link {
-  display: inline-block;
+	display: inline-block;
 }
 
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_captions.scss */
 .wp-caption {
-  text-align: center;
+	text-align: center;
 }
 
-/* line 4, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_captions.scss */
-.wp-caption img[class*="wp-image-"] {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.wp-caption img[class*='wp-image-'] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-/* line 11, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_captions.scss */
 figcaption,
 .wp-caption-text {
-  background-color: #fff;
-  border-top: 3px solid #EF5656;
-  box-shadow: 3px 6px 5px 0 rgba(0, 0, 0, 0.2);
-  color: #6c7781;
-  font-size: 13px;
-  font-size: 0.8125rem;
-  margin: 0 1.5rem 2rem;
-  padding: 0.75em 1.5em;
-  text-align: center;
+	background-color: #fff;
+	border-top: 3px solid #ef5656;
+	box-shadow: 3px 6px 5px 0 rgba(0, 0, 0, 0.2);
+	color: #6c7781;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	margin: 0 1.5rem 2rem;
+	padding: 0.75em 1.5em;
+	text-align: center;
 }
 
-/* line 23, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_captions.scss */
 .wp-block-image figcaption,
 .wp-caption .wp-caption-text {
-  display: inline-block;
-  margin-bottom: 0;
-  margin-top: 0;
-  position: relative;
-  top: -1.25rem;
-  transition: top 0.1s ease-in;
+	display: inline-block;
+	margin-bottom: 0;
+	margin-top: 0;
+	position: relative;
+	top: -1.25rem;
+	transition: top 0.25s ease-in;
 }
 
-/* line 33, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_captions.scss */
 .wp-block-image:hover figcaption,
 .wp-caption:hover figcaption {
-  top: -0.25rem;
-  transition: top 0.25s ease-in;
+	top: -0.25rem;
+	transition: top 0.1s ease-in;
 }
 
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
-/* line 1, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery {
-  margin-bottom: 1.5em;
+	margin-bottom: 1.5em;
 }
 
-/* line 5, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery-item {
-  display: inline-block;
-  text-align: center;
-  vertical-align: top;
-  width: 100%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
 }
 
-/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery-columns-2 .gallery-item {
-  max-width: 50%;
+	max-width: 50%;
 }
 
-/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery-columns-3 .gallery-item {
-  max-width: 33.33%;
+	max-width: 33.33%;
 }
 
-/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery-columns-4 .gallery-item {
-  max-width: 25%;
+	max-width: 25%;
 }
 
-/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery-columns-5 .gallery-item {
-  max-width: 20%;
+	max-width: 20%;
 }
 
-/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery-columns-6 .gallery-item {
-  max-width: 16.66%;
+	max-width: 16.66%;
 }
 
-/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery-columns-7 .gallery-item {
-  max-width: 14.28%;
+	max-width: 14.28%;
 }
 
-/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery-columns-8 .gallery-item {
-  max-width: 12.5%;
+	max-width: 12.5%;
 }
 
-/* line 13, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery-columns-9 .gallery-item {
-  max-width: 11.11%;
+	max-width: 11.11%;
 }
 
-/* line 19, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/media/_galleries.scss */
 .gallery-caption {
-  display: block;
+	display: block;
 }
 
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
 @media screen and (max-width: 320px) {
-  /* line 3, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/_media-queries.scss */
-  .wp-block-gallery.columns-2, .wp-block-gallery.columns-3, .wp-block-gallery.columns-4, .wp-block-gallery.columns-5 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
-  /* line 10, /Users/chrisrunnells/Local Sites/meetupproject/app/public/wp-content/themes/_s/sass/site/_media-queries.scss */
-  .wp-block-gallery.columns-2 figure, .wp-block-gallery.columns-3 figure, .wp-block-gallery.columns-4 figure, .wp-block-gallery.columns-5 figure {
-    margin-right: 0;
-    width: 100%;
-  }
+	.wp-block-gallery.columns-2,
+	.wp-block-gallery.columns-3,
+	.wp-block-gallery.columns-4,
+	.wp-block-gallery.columns-5 {
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+
+	.wp-block-gallery.columns-2 figure,
+	.wp-block-gallery.columns-3 figure,
+	.wp-block-gallery.columns-4 figure,
+	.wp-block-gallery.columns-5 figure {
+		margin-right: 0;
+		width: 100%;
+	}
 }
 
 /*
