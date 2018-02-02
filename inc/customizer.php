@@ -1,8 +1,8 @@
 <?php
 /**
- * _s Theme Customizer
+ * Fashion Blog Theme Customizer
  *
- * @package _s
+ * @package Fashion Blog
  */
 
 /**
@@ -50,6 +50,6 @@ function fashion_blog_customize_partial_blogdescription() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function fashion_blog_customize_preview_js() {
-	wp_enqueue_script( '_s-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
+	wp_enqueue_script( 'fashion-blog-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
 add_action( 'customize_preview_init', 'fashion_blog_customize_preview_js' );

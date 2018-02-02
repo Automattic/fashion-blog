@@ -4,7 +4,7 @@
  *
  * @link https://woocommerce.com/
  *
- * @package _s
+ * @package Fashion Blog
  */
 
 /**
@@ -29,7 +29,7 @@ add_action( 'after_setup_theme', 'fashion_blog_woocommerce_setup' );
  * @return void
  */
 function fashion_blog_woocommerce_scripts() {
-	wp_enqueue_style( '_s-woocommerce-style', get_template_directory_uri() . '/woocommerce.css' );
+	wp_enqueue_style( 'fashion-blog-woocommerce-style', get_template_directory_uri() . '/woocommerce.css' );
 
 	$font_path   = WC()->plugin_url() . '/assets/fonts/';
 	$inline_font = '@font-face {
@@ -43,7 +43,7 @@ function fashion_blog_woocommerce_scripts() {
 			font-style: normal;
 		}';
 
-	wp_add_inline_style( '_s-woocommerce-style', $inline_font );
+	wp_add_inline_style( 'fashion-blog-woocommerce-style', $inline_font );
 }
 add_action( 'wp_enqueue_scripts', 'fashion_blog_woocommerce_scripts' );
 

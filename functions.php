@@ -1,10 +1,10 @@
 <?php
 /**
- * _s functions and definitions
+ * Fashion Blog functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package _s
+ * @package Fashion Blog
  */
 
 if ( ! function_exists( 'fashion_blog_setup' ) ) :
@@ -19,7 +19,7 @@ if ( ! function_exists( 'fashion_blog_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on _s, use a find and replace
+		 * If you're building a theme based on Fashion Blog, use a find and replace
 		 * to change 'fashion-blog' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'fashion-blog', get_template_directory() . '/languages' );
@@ -158,17 +158,19 @@ function fashion_blog_fonts_url() {
  * Enqueue scripts and styles.
  */
 function fashion_blog_scripts() {
-	wp_enqueue_style( '_s-fonts', fashion_blog_fonts_url(), array(), null );
+	wp_enqueue_style( 'fashion-blog-fonts', fashion_blog_fonts_url(), array(), null );
 
 	if ( ! wp_style_is( 'genericons', 'registered' ) ) {
 		wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.2' );
 	}
 
-	wp_enqueue_style( '_s-style', get_stylesheet_uri(), array( '_s-fonts', 'genericons' ) );
+	wp_enqueue_style( 'fashion-blog-style', get_stylesheet_uri(), array( 'fashion-blog-fonts', 'genericons' ) );
 
-	wp_enqueue_script( '_s-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_style( 'fashion-blog-gutenberg-style', get_stylesheet_uri(), array( 'fashion-blog-fonts', 'genericons' ) );
 
-	wp_enqueue_script( '_s-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'fashion-blog-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'fashion-blog-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
