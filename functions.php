@@ -164,9 +164,11 @@ function fashion_blog_scripts() {
 		wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.2' );
 	}
 
+	// Primary Styles
 	wp_enqueue_style( 'fashion-blog-style', get_stylesheet_uri(), array( 'fashion-blog-fonts', 'genericons' ) );
 
-	wp_enqueue_style( 'fashion-blog-gutenberg-style', get_stylesheet_uri(), array( 'fashion-blog-fonts', 'genericons' ) );
+	// Gutenberg Styles
+	wp_enqueue_style( 'fashion-blog-gutenberg-style', get_template_directory_uri() . '/css/blocks.css', array( 'fashion-blog-style' ) );
 
 	wp_enqueue_script( 'fashion-blog-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

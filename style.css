@@ -709,23 +709,27 @@ a:active {
 	content: '\f406';
 }
 
+.toggled .menu-toggle:after {
+	background-color: #fff;
+	content: ' Close';
+	display: inline-block;
+	padding: 0.2em;
+	position: absolute;
+	bottom: 0.2em;
+	left: 0.6em;
+}
+
+
 .comment-navigation,
 .posts-navigation,
 .post-navigation {
 	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	font-size: 24px;
 	font-size: 1.5rem;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-}
-
-.site-main .comment-navigation,
-.site-main
-.posts-navigation,
-.site-main
-.post-navigation {
 	margin: 0 0 1.5em;
 	overflow: hidden;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 
 .comment-navigation a,
@@ -864,7 +868,9 @@ a:active {
 .site-content:before,
 .site-content:after,
 .site-footer:before,
-.site-footer:after {
+.site-footer:after,
+.widget:before,
+.widget:after {
 	content: '';
 	display: table;
 	table-layout: fixed;
@@ -876,7 +882,8 @@ a:active {
 .comment-content:after,
 .site-header:after,
 .site-content:after,
-.site-footer:after {
+.site-footer:after,
+.widget:after {
 	clear: both;
 }
 
@@ -887,6 +894,10 @@ a:active {
 	border-bottom: 1px solid #fff;
 	margin: 0 0 1.5em;
 	/* Make sure select elements fit in widgets. */
+}
+
+.widget .widget-title {
+	margin-bottom: 1em;
 }
 
 .widget a {
@@ -914,6 +925,24 @@ a:active {
 /**
  * Gravatar Profile
  */
+.widget-grofile {
+	position: relative;
+	padding-left: 200px;
+}
+
+.widget-grofile .grofile-thumbnail {
+	border-radius: 50%;
+	max-height: 160px;
+	max-width: 160px;
+	margin: 0 auto;
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+.widget-grofile .grofile-meta {
+}
+
 .widget-grofile h4 {
 	font-size: 20px;
 	font-size: 1.25rem;
@@ -926,13 +955,7 @@ a:active {
 
 .widget-grofile .grofile-meta h4 {
 	font-weight: 700;
-}
-
-.widget-grofile .grofile-thumbnail {
-	border-radius: 50%;
-	max-height: 180px;
-	max-width: 180px;
-	margin: 0 auto;
+	margin-top: 0;
 }
 
 /**
@@ -955,7 +978,8 @@ a:active {
 # Content
 --------------------------------------------------------------*/
 .content-area {
-	margin: 0;
+	margin: 0 0 3em;
+	overflow: hidden;
 	width: 100%;
 }
 
@@ -1005,81 +1029,24 @@ a:active {
 	width: 100%;
 }
 
-.site-footer .site-info {
+.site-info {
 	border-top: 1px solid #fff;
 	padding-top: 1.5em;
 	margin: 1.5em 1.5em 3em;
 }
 
-.site-footer .site-info a:first-child {
+.site-info a:first-child {
 	display: block;
 }
 
-.site-footer a {
+.site-info a {
 	color: #000;
 }
 
-.site-footer .sep {
+.site-info .sep {
 	display: none;
 }
 
-/*--------------------------------------------------------------
-## Gutenberg
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-## Gutenberg Styles
---------------------------------------------------------------*/
-/* Dropcaps */
-/* Images */
-.wp-block-image {
-	text-align: center;
-}
-
-/* Galleries */
-.wp-block-gallery.alignfull {
-	margin-left: 0;
-	margin-right: 0;
-}
-
-.wp-block-gallery.columns-1 figure,
-.wp-block-gallery.columns-2 figure:nth-child(2n),
-.wp-block-gallery.columns-3 figure:nth-child(3n),
-.wp-block-gallery.columns-4 figure:nth-child(4n),
-.wp-block-gallery.columns-5 figure:nth-child(5n) {
-	margin-right: 0;
-}
-
-/* Blockquotes*/
-.wp-block-quote {
-	margin-bottom: 1.5em;
-}
-
-.wp-block-quote cite {
-	margin-top: 0;
-}
-
-.wp-block-quote p:last-of-type {
-	margin-bottom: 0;
-}
-
-/* Cover Images */
-.wp-block-cover-image {
-	background-position-x: center;
-	margin-bottom: 1.5em;
-}
-
-/* Video */
-/* Audio */
-/* Pullquotes */
-/* Tables */
-/* Preformatted */
-/* Code */
-/* Verse */
-/* Separator */
-/* Buttons */
-/* Text Columns */
-/* Latest Posts */
-/* Categories */
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -1174,6 +1141,7 @@ a:active {
 	margin-top: 0;
 }
 
+/*
 .page-content > *,
 .entry-content > *,
 .entry-summary > * {
@@ -1206,6 +1174,7 @@ a:active {
 	margin-left: 0;
 	margin-right: 0;
 }
+*/
 
 .entry-meta {
 	color: #999;
@@ -1341,6 +1310,7 @@ figcaption,
 	border-top: 3px solid #ef5656;
 	box-shadow: 3px 6px 5px 0 rgba(0, 0, 0, 0.2);
 	color: #6c7781;
+	display: inline-block;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	margin: 0 1.5rem 2rem;
@@ -1350,7 +1320,6 @@ figcaption,
 
 .wp-block-image figcaption,
 .wp-caption .wp-caption-text {
-	display: inline-block;
 	margin-bottom: 0;
 	margin-top: 0;
 	position: relative;
@@ -1417,108 +1386,32 @@ figcaption,
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
-@media screen and (max-width: 320px) {
-	.wp-block-gallery.columns-2,
-	.wp-block-gallery.columns-3,
-	.wp-block-gallery.columns-4,
-	.wp-block-gallery.columns-5 {
-		margin-left: 1.5rem;
-		margin-right: 1.5rem;
-	}
-
-	.wp-block-gallery.columns-2 figure,
-	.wp-block-gallery.columns-3 figure,
-	.wp-block-gallery.columns-4 figure,
-	.wp-block-gallery.columns-5 figure {
-		margin-right: 0;
-		width: 100%;
-	}
-}
-
-/*
-
-@media screen and (min-width: 400px) {
-	.wp-block-image {
-		max-width: 375px;
+@media screen and (min-width: 780px) {
+	.entry-header,
+	.entry-content,
+	.entry-footer,
+	.page-content,
+	.comment-navigation,
+	.posts-navigation,
+	.post-navigation,
+	.comments-area,
+	.widget {
 		margin-left: auto;
 		margin-right: auto;
-
-		&.alignwide,
-		&.alignfull {
-			max-width: 100%;
-		}
-
-		&.alignleft {
-			margin-right: 5%;
-		}
-
-		&.alignright {
-			margin-left: 5%;
-		}
-
+		max-width: 760px;
 	}
 
-	.sep,
-	& .site-info a:first-child {
-		display: inline;
+	.comment-navigation,
+	.posts-navigation,
+	.post-navigation {
+		padding-left: 0;
+		padding-right: 0;
 	}
+
+	.site-info {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 760px;
+	}
+
 }
-
-
-@media screen and (min-width: 480px) {
-	.site-description {
-		margin-top: 0;
-	}
-
-	.nav-previous,
-	.nav-next {
-		width: 50%;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.wp-block-image {
-		max-width: 480px;
-	}
-
-	.alignleft,
-	.alignright {
-		float: none;
-	}
-}
-
-@media screern and (min-width: 600px) {
-	.widget-grofile {
-		.grofile-thumbnail {
-			float: left;
-			margin-right: 2em;
-		}
-		& > * {
-			margin-left: 200px;
-		}
-	}
-}
-
-@media screen and (min-width: 661px) {
-	.page-content,
-	.entry-content,
-	.entry-summary {
-		& > * {
-			max-width: 660px;
-		}
-
-		.wp-block-image {
-
-			&.alignwide {
-				max-width: 80%;
-			}
-
-			&.alignfull {
-				width: 100%;
-			}
-		}
-	}
-}
-*/
-
-/*# sourceMappingURL=../style.map */
