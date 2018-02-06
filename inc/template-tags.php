@@ -119,7 +119,7 @@ function fashion_blog_post_thumbnail() {
 		</a>
 	<?php endif; // End is_singular(). ?>
 	</div><!-- .post-thumbnail -->
-	<?
+	<?php
 }
 endif;
 
@@ -136,4 +136,3 @@ if ( ! function_exists( 'fashion_blog_categories' ) ) :
 		}
 	}
 endif;
-
