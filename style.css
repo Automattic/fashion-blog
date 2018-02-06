@@ -1141,14 +1141,14 @@ a:active {
 	margin-top: 0;
 }
 
-/*
-.page-content > *,
-.entry-content > *,
-.entry-summary > * {
+.page-content,
+.entry-content,
+.entry-summary {
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
 }
 
+/*
 .page-content .alignfull,
 .entry-content .alignfull,
 .entry-summary .alignfull {
@@ -1389,6 +1389,7 @@ figcaption,
 @media screen and (min-width: 780px) {
 	.entry-header,
 	.entry-content,
+	.entry-summary,
 	.entry-footer,
 	.page-content,
 	.comment-navigation,
