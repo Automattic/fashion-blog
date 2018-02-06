@@ -926,8 +926,7 @@ a:active {
  * Gravatar Profile
  */
 .widget-grofile {
-	position: relative;
-	padding-left: 200px;
+	text-align: center;
 }
 
 .widget-grofile .grofile-thumbnail {
@@ -935,13 +934,9 @@ a:active {
 	max-height: 160px;
 	max-width: 160px;
 	margin: 0 auto;
-	left: 0;
-	position: absolute;
-	top: 0;
 }
 
-.widget-grofile .grofile-meta {
-}
+.widget-grofile .grofile-meta {}
 
 .widget-grofile h4 {
 	font-size: 20px;
@@ -956,6 +951,19 @@ a:active {
 .widget-grofile .grofile-meta h4 {
 	font-weight: 700;
 	margin-top: 0;
+}
+
+@media screen and (min-width: 480px) {
+	.widget-grofile {
+		position: relative;
+		padding-left: 200px;
+		text-align: left;
+	}
+	.widget-grofile .grofile-thumbnail {
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
 }
 
 /**

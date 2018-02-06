@@ -118,15 +118,14 @@ p.has-drop-cap:first-letter {
 	color: #555;
 	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	margin-bottom: 1.5em;
-	padding: 1.5em .75em;
+	padding: .75em;
 }
 
 .wp-block-pullquote > p {
-	font-size: 36px;
-	font-size: 2.25rem;
+	font-size: 24px;
+	font-size: 1.5rem;
 	font-style: normal;
 	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
-
 	margin: 0 0 .75em;
 	line-height: 1.1;
 }
@@ -143,6 +142,18 @@ p.has-drop-cap:first-letter {
 	font-weight: bold;
 }
 
+@media screen and (min-width: 37.5em){
+	.wp-block-pullquote {
+		padding: 1.5em 0.75em;
+	}
+
+	.wp-block-pullquote > p {
+		font-size: 36px;
+		font-size: 2.25rem;
+		margin: 0 0 .75em;
+	}
+}
+
 .wp-block-pullquote.alignleft > p,
 .wp-block-pullquote.alignright > p {
 	font-size: 24px;
@@ -150,12 +161,24 @@ p.has-drop-cap:first-letter {
 }
 
 .wp-block-pullquote.alignleft {
-	margin-left: -12.5vw;
+	text-align: left;
 }
 
 .wp-block-pullquote.alignright {
-	margin-right: -12.5vw;
+	text-align: right;
 }
+
+
+@media screen and (min-width: 780px) {
+	.wp-block-pullquote.alignleft {
+		margin-left: -12.5vw;
+	}
+
+	.wp-block-pullquote.alignright {
+		margin-right: -12.5vw;
+	}
+}
+
 
 /* Categories */
 .wp-block-categories-list {}
