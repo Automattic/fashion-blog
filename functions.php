@@ -101,7 +101,7 @@ add_action( 'after_setup_theme', 'fashion_blog_setup' );
  * @global int $content_width
  */
 function fashion_blog_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'fashion_blog_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'fashion_blog_content_width', 760 );
 }
 add_action( 'after_setup_theme', 'fashion_blog_content_width', 0 );
 
@@ -153,6 +153,16 @@ function fashion_blog_fonts_url() {
 
 	return esc_url_raw( $fonts_url );
 }
+
+/**
+ * Gutenberg Editor Styles
+ */
+function fashion_blog_editor_styles() {
+	wp_enqueue_style( 'fashion-blog-fonts', fashion_blog_fonts_url(), array(), null );
+	wp_enqueue_style( 'fashion-blog-editor-style', get_template_directory_uri() . '/css/editor-style.css');
+}
+add_action( 'enqueue_block_editor_assets', 'fashion_blog_editor_styles' );
+
 
 /**
  * Enqueue scripts and styles.
