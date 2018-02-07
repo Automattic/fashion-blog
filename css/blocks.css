@@ -235,28 +235,27 @@ p.has-drop-cap:first-letter {
 
 /* Buttons */
 .wp-block-button {
-	background-color: #e06e53;
 	margin-bottom: 1.5em;
-	border-radius: 3px;
 	text-align: center;
+}
+.wp-block-button.aligncenter {}
+
+.wp-block-button .wp-block-button__link {
+	background-color: #e06e53;
+	border-radius: 3px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
 	font-size: 14px;
 }
-.wp-block-button.aligncenter {
-	left: 50%;
-	transform: translateX(-50%);
-}
 
 .wp-block-button a {
-	transition: 0.3s color;
+	transition: 0.3s background-color;
 }
 
 .wp-block-button a:hover,
 .wp-block-button a:focus,
 .wp-block-button a:active {
-	color: rgba(255,255,255,0.5);
 }
 
 /* Text Columns */
