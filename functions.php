@@ -131,16 +131,17 @@ function fashion_blog_fonts_url() {
 	$fonts_url = '';
 
 	/* Translators: If there are characters in your language that are not
-	* supported by Lato, translate this to 'off'. Do not translate
+	* supported by Playfair Display, translate this to 'off'. Do not translate
 	* into your own language.
 	*/
-	$lora = _x( 'on', 'Lora font: on or off', 'fashion-blog' );
+	$font = _x( 'on', 'Playfair Display font: on or off', 'fashion-blog' );
 
-	if ( 'off' !== $lora ) {
+	if ( 'off' !== $font ) {
 		$font_families = array();
 
-		if ( 'off' !== $lato ) {
-			$font_families[] = 'Lora:400,400italic,700,700italic';
+		if ( 'off' !== $font ) {
+			// $font_families[] = 'Lora:400,400italic,700,700italic';
+			$font_families[] = 'Playfair Display:400,400i,700,700i';
 		}
 
 		$query_args = array(

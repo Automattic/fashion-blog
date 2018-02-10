@@ -9,7 +9,7 @@
 
 /* Dropcaps */
 p.has-drop-cap:first-letter {
-	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-family: 'Playfair Display', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	font-size: 64px;
 	font-size: 4rem;
 	margin-right: .1em;
@@ -116,7 +116,7 @@ p.has-drop-cap:first-letter {
 	border-left: none;
 	border-top: 3px solid #ef5656;
 	color: #555;
-	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-family: 'Playfair Display', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	margin-bottom: 1.5em;
 	padding: .75em;
 }
@@ -125,7 +125,7 @@ p.has-drop-cap:first-letter {
 	font-size: 24px;
 	font-size: 1.5rem;
 	font-style: normal;
-	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-family: 'Playfair Display', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	margin: 0 0 .75em;
 	line-height: 1.1;
 }
@@ -168,15 +168,25 @@ p.has-drop-cap:first-letter {
 	text-align: right;
 }
 
-
 @media screen and (min-width: 780px) {
 	.wp-block-pullquote.alignleft {
 		margin-left: -12.5vw;
+		text-align: center;
 	}
 
 	.wp-block-pullquote.alignright {
 		margin-right: -12.5vw;
+		text-align: center;
 	}
+
+	.wp-block-pullquote.alignwide {
+		padding: 1.5em 2em;
+	}
+
+	.wp-block-pullquote.alignfull {
+		padding: 2em 3em;
+	}
+
 }
 
 
@@ -255,8 +265,7 @@ p.has-drop-cap:first-letter {
 
 .wp-block-button a:hover,
 .wp-block-button a:focus,
-.wp-block-button a:active {
-}
+.wp-block-button a:active {}
 
 /* Text Columns */
 .wp-block-text-columns {}

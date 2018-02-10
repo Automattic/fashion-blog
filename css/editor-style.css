@@ -45,7 +45,7 @@ h6.mce-content-body,
 .editor-block-list__block[data-type="core/heading"] h6 {
 	color: #111;
 	clear: both;
-	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-family: 'Playfair Display', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	font-weight: bold;
 }
 
@@ -59,7 +59,7 @@ dfn, cite, em, i {
 
 blockquote {
 	border-left: 3px solid #ef5656;
-	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-family: 'Playfair Display', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	font-size: 24px;
 	font-size: 1.5rem;
 	margin: 0 0 1.5em 0;
@@ -105,7 +105,7 @@ big {
 
 /* Dropcaps */
 p.has-drop-cap:first-letter {
-	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-family: 'Playfair Display', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	font-size: 64px;
 	font-size: 4rem;
 	margin-right: .1em;
@@ -212,7 +212,7 @@ p.has-drop-cap:first-letter {
 	border-left: none;
 	border-top: 3px solid #ef5656;
 	color: #555;
-	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-family: 'Playfair Display', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	margin-bottom: 1.5em;
 	padding: 1.5em 0.75em;
 }
@@ -221,7 +221,7 @@ p.has-drop-cap:first-letter {
 	font-size: 36px;
 	font-size: 2.25rem;
 	font-style: normal;
-	font-family: 'Lora', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+	font-family: 'Playfair Display', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	margin: 0 0 .75em;
 	line-height: 1.1;
 }
