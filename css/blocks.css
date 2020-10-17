@@ -1,3 +1,39 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Fayre18 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+Automattic
+/
+fashion-blog
+4
+202
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+fashion-blog/css/blocks.css
+@crunnells
+crunnells Font Update
+…
+Latest commit 5f26376 on Feb 10, 2018
+ History
+ 1 contributor
+334 lines (276 sloc)  5.51 KB
+  
 /*--------------------------------------------------------------
 ## Gutenberg Styles
 --------------------------------------------------------------*/
@@ -49,8 +85,8 @@ p.has-drop-cap:first-letter {
 
 .wp-block-quote cite {
 	display: block;
-	font-size: 18px;
-	font-size: 1.125rem;
+	font-size: 17px;
+	font-size: 1.120rem;
 	font-style: italic;
 	margin-bottom: 1.5em;
 	width: 100%;
@@ -112,10 +148,10 @@ p.has-drop-cap:first-letter {
 
 /* Pullquotes */
 .wp-block-pullquote {
-	border-bottom: 3px solid #ef5656;
+	border-bottom: 3px solid #f57777;
 	border-left: none;
-	border-top: 3px solid #ef5656;
-	color: #555;
+	border-top: 3px solid #f57777;
+	color: rgb(114, 112, 112);
 	font-family: 'Playfair Display', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
 	margin-bottom: 1.5em;
 	padding: .75em;
@@ -131,7 +167,7 @@ p.has-drop-cap:first-letter {
 }
 
 .wp-block-pullquote > cite {
-	color: #777;
+	color: rgb(114, 112, 112);
 	font-family: Arial, Verdana, sans-serif;
 	font-style: normal;
 	line-height: 1.6;
@@ -227,7 +263,7 @@ p.has-drop-cap:first-letter {
 /* Separator */
 .wp-block-separator {
 	background-color: transparent;
-	border-bottom: 3px solid #ef5656;
+	border-bottom: 3px solid #f57777;
 	margin-bottom: 1.5em;
 	width: 75%;
 	max-width: 75%;
@@ -251,7 +287,7 @@ p.has-drop-cap:first-letter {
 .wp-block-button.aligncenter {}
 
 .wp-block-button .wp-block-button__link {
-	background-color: #e06e53;
+	background-color: #f88a8a;
 	border-radius: 3px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -274,7 +310,7 @@ p.has-drop-cap:first-letter {
 /* Latest Posts */
 .wp-block-latest-posts {}
 .wp-block-latest-posts__post-date {
-	color: #888;
+	color: rgb(114, 112, 112);
 }
 .is-grid {}
 
@@ -332,3 +368,15 @@ p.has-drop-cap:first-letter {
 		margin-left: -12.5vw;
 	}
 }
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
